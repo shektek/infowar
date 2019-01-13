@@ -1,0 +1,37 @@
+﻿Build started 13/01/2019 2:56:52 PM.
+     1>Project "G:\dev\INFOWAR\INFOWAR\INFOWAR.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\dev\bullet3-2.86.1\src" /I"G:\dev\irrlicht-1.8.3\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AppManager.cpp main.cpp
+         AppManager.cpp
+     1>g:\dev\bullet3-2.86.1\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>g:\dev\bullet3-2.86.1\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>g:\dev\bullet3-2.86.1\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>g:\dev\infowar\infowar\appmanager.cpp(101): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>g:\dev\infowar\infowar\appmanager.cpp(107): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>g:\dev\infowar\infowar\appmanager.cpp(111): warning C4244: 'argument' : conversion from 'double' to 'const btScalar', possible loss of data
+     1>g:\dev\infowar\infowar\appmanager.cpp(206): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\dev\infowar\infowar\appmanager.cpp(221): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>g:\dev\infowar\infowar\appmanager.cpp(421): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>g:\dev\infowar\infowar\appmanager.cpp(423): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>g:\dev\infowar\infowar\appmanager.cpp(434): warning C4316: 'PlayerCharacterController' : object allocated on the heap may not be aligned 16
+     1>g:\dev\infowar\infowar\appmanager.cpp(460): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>g:\dev\bullet3-2.86.1\src\linearmath\btidebugdraw.h(169): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>g:\dev\bullet3-2.86.1\src\linearmath\btidebugdraw.h(170): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>g:\dev\bullet3-2.86.1\src\linearmath\btidebugdraw.h(171): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\dev\INFOWAR\Debug\INFOWAR.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\dev\INFOWAR\Debug\INFOWAR.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\dev\INFOWAR\Debug\INFOWAR.lib" /MACHINE:X86 Debug\AnimationController.obj
+         Debug\AppManager.obj
+         Debug\CharacterController.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\Misc.obj
+         INFOWAR.vcxproj -> G:\dev\INFOWAR\Debug\INFOWAR.exe
+     1>Done Building Project "G:\dev\INFOWAR\INFOWAR\INFOWAR.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.70

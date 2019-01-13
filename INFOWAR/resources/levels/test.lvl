@@ -1,0 +1,53 @@
+obj $( Ground ) resources/models/plane.obj
+tex $( Ground ) resources/textures/wall.bmp
+tex $( Ground ) resources/textures/detailmap3.jpg
+pos $( Ground ) 0 15 0 0 0 0
+col $( Ground ) BOX
+mass $( Ground ) 100.0
+
+obj $( g2 ) resources/models/plane.obj
+tex $( g2 ) resources/textures/wall.bmp
+pos $( g2 ) 20 0 0 0 0 0
+col $( g2 ) PLANE
+mass $( g2 ) 0.0
+scl $( g2 ) 2.0 1.0 2.0
+
+obj $( rocket ) resources/models/shuttle.obj
+tex $( rocket ) resources/textures/shuttle1.jpg
+tex $( rocket ) resources/textures/shuttle2.jpg
+pos $( rocket ) 1 35 0 0 0 0
+col $( rocket ) BOX
+mass $( rocket ) 8.0
+
+obj $( goblin ) resources/models/goblin.md2
+tex $( goblin ) resources/textures/goblin.jpg
+pos $( goblin ) 5 30 0 0 0 0
+col $( goblin ) BOX
+mass $( goblin ) 5.0
+scl $( goblin ) 0.1 0.1 0.1
+
+obj $( knight ) resources/models/knight.md2
+tex $( knight ) resources/textures/knight.jpg
+pos $( knight ) 10 40 0 0 0 0
+col $( knight ) BOX
+mass $( knight ) 8.0
+scl $( knight ) 0.1 0.1 0.1
+
+obj $( brick ) resources/models/brick.obj
+tex $( brick ) resources/textures/detailmap3.jpg
+pos $( brick ) 0 25 0 0 0 0
+col $( brick ) BOX
+mass $( brick ) 15.0
+scl $( brick ) 1.0 1.0 2.0
+
+obj $( brick2 ) resources/models/brick.obj
+tex $( brick2 ) resources/textures/detailmap3.jpg
+pos $( brick2 ) 1 23 1.2 0 0 0
+col $( brick2 ) BOX
+mass $( brick2 ) 15.0
+
+obj $( brick3 ) resources/models/brick.obj
+tex $( brick3 ) resources/textures/detailmap3.jpg
+pos $( brick3 ) 0 27 1.4 0 0 0
+col $( brick3 ) BOX
+mass $( brick3 ) 15.0

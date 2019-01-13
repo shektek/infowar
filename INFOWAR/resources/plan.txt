@@ -1,0 +1,46 @@
+INFOWAR
+--
+Start game window
+	Load GUI textures	
+	Load level structure
+	
+	For the current level:
+		Load object models
+		Load object textures
+		Place/texture models in world
+		Create physics
+		
+	Load object models:
+		Get list of needed models for the level
+		Put into obj list
+		
+	Load object textures
+		Get list of needed textures
+		Put into texture list
+	
+	Place/texture models in world
+		Find referenced model and referenced texture
+		Place at location
+		
+	Create physics
+		Find referenced model in world location
+		Give appropriate rigid body collision volume
+-- DONE!
+
+NEXT:
+	key pressed: check charctrl keyactionmap, pass back action if exists
+	charctrl: operate based on action
+-- DONE!
+	Abstract character controller into pure virtual base class
+	Animations controller: owned by Character controller, change animations on action
+	
+	AI event: AI system would pass desired action to charctrl
+	charctrl: operate based on action
+	
+	Or network/gamepad event, etc.
+	
+	possible actions:
+		-ATTACK light/heavy/special1/special2
+		-MOVE left/right/up/down
+		-ABILITY1,2,3 these can be equipment selected beforehand
+		
